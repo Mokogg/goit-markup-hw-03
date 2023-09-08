@@ -288,7 +288,8 @@ button:active {
 /* our-portfolio */
 
 .title-portfolio {
-  color: var(--NAVY-BLUE, #2E2F42);
+  display: flex;
+  color: #2E2F42;
   font-family: Roboto;
   font-size: 36px;
   font-style: normal;
@@ -296,6 +297,17 @@ button:active {
   line-height: 40px;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+
+}
+
+.work-ul {
+  display: inline-block;
+
+}
+
+.work-1 {
+  border: 1px solid var(--CORNFLOWER, #E7E9FC);
+  background: var(--WHITE, #FFF);
 }
 
 .section-portfolio {
