@@ -152,7 +152,6 @@ ul {
   padding: 16px 32px;
   cursor: pointer;
   border: 4px solid #4d5ae5;
-  display: inline-flex;
   padding: 16px 32px;
   align-items: flex-start;
   gap: 10px;
@@ -164,6 +163,7 @@ ul {
 .button-text {
   max-width: 105px;
   max-height: 24px;
+  padding: 16px 32px;
 }
 
 .button:focus {
@@ -226,8 +226,9 @@ button:active {
 
 .title-team {
   display: flex;
-  text-align: center;
   margin: 60px 639px;
+  max-width: 162px;
+  max-height: 40px;
 }
 
 .section-team>h2 {
@@ -242,13 +243,24 @@ button:active {
   text-transform: capitalize;
 }
 
+.team-list-ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 24px;
+}
+
 .team-list {
   background: #fff;
+  border-radius: 0px 0px 4px 4px;
+  background: var(--WHITE, #FFF);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  gap: 24px;
 }
 
 .team-list-title {
   color: #2e2f42;
-  text-align: center;
+  align-items: center;
   font-family: Roboto;
   font-size: 20px;
   font-style: normal;
@@ -257,9 +269,14 @@ button:active {
   letter-spacing: 0.4px;
 }
 
+.team-all-text {
+  display: block;
+  max-width: 232px;
+  max-height: 56px;
+}
+
 .team-list-text {
   color: #434455;
-  text-align: center;
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
@@ -269,6 +286,17 @@ button:active {
 }
 
 /* our-portfolio */
+
+.title-portfolio {
+  color: var(--NAVY-BLUE, #2E2F42);
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
 
 .section-portfolio {
   background-color: #fff;
