@@ -8,6 +8,8 @@ ul {
   list-style-type: none;
 }
 
+
+
 /* header */
 
 .header-inner {
@@ -219,16 +221,27 @@ button:active {
 
 /* our-team */
 
+.container-our-team {
+  display: block;
+  text-align: center;
+}
+
 .section-team {
   background-color: #f4f4fd;
   display: flex;
 }
 
 .title-team {
-  display: flex;
-  margin: 60px 639px;
-  max-width: 162px;
-  max-height: 40px;
+  display: block;
+  color: #2E2F42;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
 }
 
 .section-team>h2 {
@@ -245,9 +258,11 @@ button:active {
 
 .team-list-ul {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 24px;
+  display: inline-flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+  justify-content: space-between;
+  gap: 32px;
 }
 
 .team-list {
@@ -267,15 +282,16 @@ button:active {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.4px;
+  color: var(--NAVY-BLUE, #2E2F42);
+  text-align: center;
+  margin: 0;
 }
 
-.team-all-text {
-  display: block;
-  max-width: 232px;
-  max-height: 56px;
-}
+
 
 .team-list-text {
+  display: block;
+  text-align: center;
   color: #434455;
   font-family: Roboto;
   font-size: 16px;
@@ -286,6 +302,18 @@ button:active {
 }
 
 /* our-portfolio */
+
+.title-portfolio-h2 {
+  color: #2E2F42;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
 
 .title-portfolio {
   display: flex;
@@ -301,8 +329,12 @@ button:active {
 }
 
 .work-ul {
-  display: inline-block;
-
+  display: flex;
+  padding-bottom: 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  flex-shrink: 0;
 }
 
 .work-1 {
@@ -362,8 +394,12 @@ button:active {
 /* footer */
 
 .footer {
-  flex-shrink: 0;
+  display: flex;
   background-color: #2e2f42;
+}
+
+.footer-container {
+  display: inline-block;
 }
 
 .footer>p {
@@ -379,6 +415,7 @@ button:active {
 
 
 .footer-logo {
+  display: flex;
   font-family: "Raleway", sans-serif;
   color: #4d5ae5;
   font-size: 18px;
@@ -388,6 +425,16 @@ button:active {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
+  margin: 50px auto 16px 156px;
+  max-width: 115px;
+  max-height: 24px;
+}
+
+.footer-text {
+  display: flex;
+  margin: 16px auto 100px 156px;
+  max-width: 264px;
+  color: #F4F4FD;
 }
 
 .footer-span {
