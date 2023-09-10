@@ -16,6 +16,7 @@ img {
 
 .container {
   display: flex;
+  margin: 0 auto;
   width: 1158px;
   padding: 0 15px;
 }
@@ -81,6 +82,7 @@ header {
   display: flex;
   gap: 40px;
   padding: 24px 0;
+  margin-right: 76px
 }
 
 .nav-list>li>a {
@@ -93,6 +95,7 @@ header {
   line-height: 24px;
   letter-spacing: 0.32px;
   text-decoration: none;
+  padding: 24px 0;
 }
 
 .nav-studio:hover,
