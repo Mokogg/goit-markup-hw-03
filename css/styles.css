@@ -27,10 +27,12 @@ header {
 }
 
 .header-inner {
+  display: flex;
   padding: 0 15px;
   border-bottom: 1px solid #e7e9fc;
-  display: flex;
   justify-content: space-between;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .header-address {
