@@ -208,7 +208,7 @@ button:active {
 
 /* strategy  */
 
-.title-delete {
+.visually-hidden {
   display: none;
 }
 
@@ -336,6 +336,7 @@ button:active {
   line-height: 40px;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .title-portfolio {
@@ -357,17 +358,21 @@ button:active {
   padding-bottom: 0px;
   align-items: flex-start;
   justify-content: center;
-  gap: 32px;
   flex-shrink: 0;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .work-1 {
   border: 1px solid var(--CORNFLOWER, #E7E9FC);
   background: var(--WHITE, #FFF);
+  width: calc((100% - 48px) / 3);
 }
 
 .section-portfolio {
   background-color: #fff;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .section-portfolio>h2 {
