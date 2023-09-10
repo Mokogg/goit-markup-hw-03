@@ -393,6 +393,7 @@ button:active {
 }
 
 .footer-container {
+  padding: 100px 0;
   display: inline-block;
 }
 
@@ -441,4 +442,8 @@ button:active {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+footer a {
+  display: inline-block;
 }
