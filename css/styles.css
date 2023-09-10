@@ -377,7 +377,7 @@ button:active {
   line-height: 40px;
   letter-spacing: 0.72px;
   text-transform: capitalize;
-
+  margin-bottom: 8px
 }
 
 .work-ul {
