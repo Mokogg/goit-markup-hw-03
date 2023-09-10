@@ -15,6 +15,7 @@ img {
 /* header */
 
 .header-inner {
+  padding: 0 15px;
   border-bottom: 1px solid #e7e9fc;
   display: flex;
   justify-content: space-between;
@@ -47,17 +48,21 @@ img {
 }
 
 .title-web {
+  margin-right: 76px;
+  display: flex;
   color: #2e2f42;
 }
 
 .nav-list {
+  align-items: center;
   display: flex;
-  padding: 0;
+  padding: 24px 0;
   gap: 40px;
   margin: 24px 0 24px 76px;
 }
 
 .nav-list>li>a {
+  display: flex;
   color: #2e2f42;
   font-family: Roboto;
   font-size: 16px;
@@ -74,6 +79,7 @@ img {
 }
 
 .contacts {
+  display: flex;
   font-style: normal;
 }
 
@@ -150,7 +156,7 @@ img {
 
 .button {
   display: block;
-  display: inline-flex;
+  min-width: 169px;
   padding: 16px 32px;
   align-items: flex-start;
   gap: 10px;
@@ -203,6 +209,10 @@ button:active {
   margin: 60px 156px;
 }
 
+.strategy {
+  width: calc((100% - 72px) / 4);
+}
+
 .title-strategy {
   margin-bottom: 8px;
   color: #2e2f42;
@@ -231,6 +241,10 @@ button:active {
 .section-team {
   padding: 120px 0;
   background-color: #f4f4fd;
+}
+
+.name {
+  padding: 32px 0;
 }
 
 .title-team {
@@ -269,6 +283,7 @@ button:active {
 /* text */
 
 .team-list-title {
+  text-align: center;
   color: #2e2f42;
   align-items: center;
   font-family: Roboto;
@@ -278,8 +293,7 @@ button:active {
   line-height: 24px;
   letter-spacing: 0.4px;
   color: #2E2F42;
-  text-align: center;
-  margin: 0;
+  margin-bottom: 8px;
 }
 
 .team-list-text {
@@ -388,6 +402,7 @@ button:active {
 /* footer */
 
 .footer {
+  padding: 100px 0;
   display: flex;
   background-color: #2e2f42;
 }
@@ -410,7 +425,7 @@ button:active {
 
 
 .footer-logo {
-  display: flex;
+  display: inline-block;
   font-family: "Raleway", sans-serif;
   color: #4d5ae5;
   font-size: 18px;
@@ -444,6 +459,6 @@ button:active {
   text-decoration: none;
 }
 
-footer a {
+.footer a {
   display: inline-block;
 }
