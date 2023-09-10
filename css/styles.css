@@ -8,11 +8,14 @@ ul {
   list-style-type: none;
 }
 
-
+img {
+  display: block;
+}
 
 /* header */
 
 .header-inner {
+  border-bottom: 1px solid #e7e9fc;
   display: flex;
   justify-content: space-between;
 }
@@ -123,6 +126,7 @@ ul {
 /* hero */
 
 .hero {
+  padding: 188px 0;
   background-color: #2e2f42;
   flex-shrink: 0;
   display: flex;
@@ -145,6 +149,7 @@ ul {
 }
 
 .button {
+  display: block;
   display: inline-flex;
   padding: 16px 32px;
   align-items: flex-start;
@@ -155,6 +160,7 @@ ul {
   border: 0;
   color: #FFF;
   margin: 48px 635px 188px 636px;
+  cursor: pointer;
 }
 
 .button-text {
@@ -185,6 +191,7 @@ button:active {
 }
 
 .section-strategy {
+  padding: 120px 0;
   margin-bottom: 60px;
 }
 
@@ -197,6 +204,7 @@ button:active {
 }
 
 .title-strategy {
+  margin-bottom: 8px;
   color: #2e2f42;
   font-family: Roboto;
   font-size: 20px;
@@ -221,9 +229,8 @@ button:active {
 
 
 .section-team {
-  margin-bottom: 60px;
+  padding: 120px 0;
   background-color: #f4f4fd;
-
 }
 
 .title-team {
@@ -237,6 +244,7 @@ button:active {
   line-height: 40px;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  margin-bottom: 72px
 }
 
 .team-list-ul {
@@ -250,6 +258,8 @@ button:active {
 
 /* ul-list */
 .team-list {
+  display: block;
+  width: calc((100% - 72px) / 4);
   background: #fff;
   border-radius: 0px 0px 4px 4px;
   background: #FFF;
