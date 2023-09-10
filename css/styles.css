@@ -119,6 +119,7 @@ nav {
 }
 
 .contacts>ul>li>a {
+  display: flex;
   color: #434455;
   font-family: Roboto;
   font-size: 16px;
@@ -132,17 +133,22 @@ nav {
 
 /*  */
 
-
+.header-address {
+  display: flex;
+}
 
 .contacts li {
+  display: flex;
   font-style: normal;
 }
 
 .contacts a {
+  display: flex;
   font-style: normal;
 }
 
 .contacts-link {
+  display: flex;
   color: #434455;
   letter-spacing: 0.02em;
   line-height: 1.5;
