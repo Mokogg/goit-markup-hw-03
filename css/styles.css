@@ -14,13 +14,6 @@ img {
 
 /* header */
 
-.container {
-  display: flex;
-  margin: 0 auto;
-  width: 1158px;
-  padding: 0 15px;
-}
-
 .header {
   display: flex;
   width: 1158px;
