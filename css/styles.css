@@ -43,6 +43,10 @@ img {
   gap: 40px;
 }
 
+.header-section {
+  display: flex;
+}
+
 .title-logo,
 .title-span,
 .nav-studio {
@@ -159,6 +163,10 @@ nav {
   line-height: 60px;
   letter-spacing: 1.12px;
   margin: 188px auto 48px auto;
+}
+
+button {
+  height: 56px;
 }
 
 .button {
