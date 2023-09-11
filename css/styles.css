@@ -29,11 +29,6 @@ img {
   padding: 0;
 }
 
-.header-inner {
-  display: flex;
-  padding: 0;
-  border-bottom: 1px solid #e7e9fc;
-}
 
 /* Navigation styles */
 .navigation {
@@ -76,6 +71,11 @@ img {
 nav {
   display: flex;
   align-items: center;
+  gap: 40px;
+}
+
+.address-li {
+  display: flex;
   gap: 40px;
 }
 
