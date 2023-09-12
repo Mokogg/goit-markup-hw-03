@@ -29,6 +29,11 @@ img {
   padding: 0;
 }
 
+.header-container {
+  display: flex;
+  justify-content: space between;
+  align-items: center;
+}
 
 /* Navigation styles */
 .navigation {
