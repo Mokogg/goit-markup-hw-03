@@ -15,7 +15,6 @@ img {
 /* header */
 
 .container {
-  display: flex;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -338,7 +337,7 @@ button:active {
 
 /* our-portfolio */
 
-.portfolio-h2 {
+.portfolio-h {
   color: #2E2F42;
   text-align: center;
   font-family: Roboto;
