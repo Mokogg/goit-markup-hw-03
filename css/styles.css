@@ -375,8 +375,6 @@ button:active {
   row-gap: 48px;
 }
 
-
-
 .work {
   width: calc((100% - 48px) / 3);
 }
@@ -406,6 +404,7 @@ button:active {
 }
 
 .section-portfolio>ul>li {
+  width: calc((100% - 48px) / 3);
   background: #fff;
 }
 
