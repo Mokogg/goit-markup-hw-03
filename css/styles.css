@@ -344,14 +344,12 @@ button:active {
 /* our-portfolio */
 
 .portfolio-h {
-  color: #2E2F42;
-  text-align: center;
-  font-family: Roboto;
+  color: var(--c-primary);
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
-  line-height: 40px;
-  letter-spacing: 0.72px;
+  line-height: 1.11;
+  letter-spacing: 0.03em;
+  text-align: center;
   text-transform: capitalize;
   margin-bottom: 72px;
 }
@@ -372,10 +370,6 @@ button:active {
 .work-ul {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 0px;
-  align-items: flex-start;
-  justify-content: center;
-  flex-shrink: 0;
   column-gap: 24px;
   row-gap: 48px;
 }
@@ -386,16 +380,12 @@ button:active {
 
 .app-text {
   padding: 32px 16px;
-  border: 1px solid #e7e9fc;
+  border: 1px solid #E7E9FC;
   border-top: none;
-  margin-bottom: 8px;
 }
 
 .section-portfolio {
-  background-color: #fff;
-  padding-top: 120px;
-  padding-bottom: 120px;
-
+  padding: 120px 0 120px 0;
 }
 
 .section-portfolio>h2 {
@@ -425,13 +415,19 @@ button:active {
 }
 
 .title-portfolio {
-  color: #2e2f42;
-  font-family: Roboto;
-  font-size: 20px;
-  font-style: normal;
+  color: підставте свій;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
+
+.portfolio-text {
+  color: inherit;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .section-portfolio>ul>li>p {
